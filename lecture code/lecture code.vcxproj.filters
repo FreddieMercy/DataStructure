@@ -1,0 +1,179 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\ADTs">
+      <UniqueIdentifier>{6afb5f4b-20c5-455b-8309-fb3feb6d95a7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Sorting">
+      <UniqueIdentifier>{5bda13f8-17f0-46da-aa51-16e2ffb58d83}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ADTs\Trees">
+      <UniqueIdentifier>{3afde298-8df3-408c-b99b-b079715fe5bc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ADTs\Hashtables">
+      <UniqueIdentifier>{4036b8dc-3175-4785-940b-4700ec4e90f7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="StringSplitter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RandomNumberGenerator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Array.h">
+      <Filter>Header Files\ADTs</Filter>
+    </ClInclude>
+    <ClInclude Include="Collection.h">
+      <Filter>Header Files\ADTs</Filter>
+    </ClInclude>
+    <ClInclude Include="Indexed.h">
+      <Filter>Header Files\ADTs</Filter>
+    </ClInclude>
+    <ClInclude Include="Queue.h">
+      <Filter>Header Files\ADTs</Filter>
+    </ClInclude>
+    <ClInclude Include="Stack.h">
+      <Filter>Header Files\ADTs</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector.h">
+      <Filter>Header Files\ADTs</Filter>
+    </ClInclude>
+    <ClInclude Include="ListNode.h">
+      <Filter>Header Files\ADTs</Filter>
+    </ClInclude>
+    <ClInclude Include="LinkedList.h">
+      <Filter>Header Files\ADTs</Filter>
+    </ClInclude>
+    <ClInclude Include="Sorter.h">
+      <Filter>Header Files\Sorting</Filter>
+    </ClInclude>
+    <ClInclude Include="IndexedSorter.h">
+      <Filter>Header Files\Sorting</Filter>
+    </ClInclude>
+    <ClInclude Include="InsertionSort.h">
+      <Filter>Header Files\Sorting</Filter>
+    </ClInclude>
+    <ClInclude Include="SelectionSort.h">
+      <Filter>Header Files\Sorting</Filter>
+    </ClInclude>
+    <ClInclude Include="BubbleSort.h">
+      <Filter>Header Files\Sorting</Filter>
+    </ClInclude>
+    <ClInclude Include="Benchmark.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SortedCollection.h">
+      <Filter>Header Files\ADTs</Filter>
+    </ClInclude>
+    <ClInclude Include="StackList.h">
+      <Filter>Header Files\ADTs</Filter>
+    </ClInclude>
+    <ClInclude Include="ReservedLinkedList.h">
+      <Filter>Header Files\ADTs</Filter>
+    </ClInclude>
+    <ClInclude Include="QueueAdapter.h">
+      <Filter>Header Files\ADTs</Filter>
+    </ClInclude>
+    <ClInclude Include="CircularQueue.h">
+      <Filter>Header Files\ADTs</Filter>
+    </ClInclude>
+    <ClInclude Include="OldLinkedList.h">
+      <Filter>Header Files\ADTs</Filter>
+    </ClInclude>
+    <ClInclude Include="SkipList.h">
+      <Filter>Header Files\ADTs</Filter>
+    </ClInclude>
+    <ClInclude Include="SkipNode.h">
+      <Filter>Header Files\ADTs</Filter>
+    </ClInclude>
+    <ClInclude Include="BinaryNode.h">
+      <Filter>Header Files\ADTs\Trees</Filter>
+    </ClInclude>
+    <ClInclude Include="BinaryTreeTraversal.h">
+      <Filter>Header Files\ADTs\Trees</Filter>
+    </ClInclude>
+    <ClInclude Include="InOrderTraversal.h">
+      <Filter>Header Files\ADTs\Trees</Filter>
+    </ClInclude>
+    <ClInclude Include="PostOrderTraversal.h">
+      <Filter>Header Files\ADTs\Trees</Filter>
+    </ClInclude>
+    <ClInclude Include="PreOrderTraversal.h">
+      <Filter>Header Files\ADTs\Trees</Filter>
+    </ClInclude>
+    <ClInclude Include="BinarySearchTree.h">
+      <Filter>Header Files\ADTs\Trees</Filter>
+    </ClInclude>
+    <ClInclude Include="BstInOrderIterator.h">
+      <Filter>Header Files\ADTs\Trees</Filter>
+    </ClInclude>
+    <ClInclude Include="HashTableBase.h">
+      <Filter>Header Files\ADTs\Hashtables</Filter>
+    </ClInclude>
+    <ClInclude Include="LinearHashTable.h">
+      <Filter>Header Files\ADTs\Hashtables</Filter>
+    </ClInclude>
+    <ClInclude Include="HashItem.h">
+      <Filter>Header Files\ADTs\Hashtables</Filter>
+    </ClInclude>
+    <ClInclude Include="QuadraticHashTable.h">
+      <Filter>Header Files\ADTs\Hashtables</Filter>
+    </ClInclude>
+    <ClInclude Include="DoubleHashTable.h">
+      <Filter>Header Files\ADTs\Hashtables</Filter>
+    </ClInclude>
+    <ClInclude Include="BucketHashTable.h">
+      <Filter>Header Files\ADTs\Hashtables</Filter>
+    </ClInclude>
+    <ClInclude Include="GroceryItem.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="hw2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Details.csv">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="exams_1.csv">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="exams_2.csv">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="homework_1.csv">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="homework_2.csv">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="quizzes_1.csv">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="quizzes_2.csv">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Summary.csv">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+</Project>
